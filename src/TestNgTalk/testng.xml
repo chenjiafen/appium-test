@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="1">
+    <test name="127.0.0.1:62001">
+        <parameter name="udid" value="127.0.0.1:62001"/>
+        <parameter name="port" value="4490"/>
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="TestNgTalk.NewTestQQ"/>
+        </classes>
+    </test>
+    
+    
+    <test name="127.0.0.1:62001">
+        <parameter name="udid" value="127.0.0.1:62027"/>
+        <parameter name="port" value="4491"/>
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="TestNgTalk.NewTestQQ"/>
+        </classes>
+    </test>
+</suite>
